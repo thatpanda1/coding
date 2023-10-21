@@ -6,7 +6,100 @@
     <link rel="stylesheet" href="app.css" />
   </head>
   <body>
-    <div class="header" />
+    <nav class="u-container header" role="navigation" aria-label="Global">
+  <input type="checkbox" id="menu-state" class="header__menu-state">
+  <div id="header" class="header__inner">
+    
+  <ul class="nav__header">
+    <li class="nav__item nav__item--logo">
+      <a class="nav__link" href="/" rel="home" aria-label="Go To Homepage">
+        
+  <img src="/images/ravynos-mark.svg" width="40" height="40"/>
+
+      </a>
+    </li>
+    <li class="nav__item nav__item--menu">
+      <label class="menu__label" for="menu-state" aria-hidden="true">
+        <span class="menu__label__bread menu__label__bread--top"></span>
+        <span class="menu__label__bread menu__label__bread--middle"></span>
+        <span class="menu__label__bread menu__label__bread--bottom"></span>
+      </label>
+      <a id="nav-button" href="#nav" class="header__ham" title="Open Menu" aria-label="Open Menu"></a>
+    </li>
+  </ul>
+
+  <ul class="nav__menu">
+    <li class="nav__item nav__item--logo">
+      <a class="nav__link" href="/" rel="home" aria-label="Go To Homepage">
+        
+  <img src="/images/ravynos-mark.svg" width="40" height="40"/>
+
+      </a>
+    </li>
+
+    
+      
+      <li class="nav__item nav__item--overview">
+        <a href="/" class="nav__link  nav__link--active"  aria-current="page" >
+          Overview
+        </a>
+      </li>
+    
+      
+      <li class="nav__item nav__item--screenshots">
+        <a class='nav__link  ' href='/screenshots'>
+          Screenshots
+        </a>
+      </li>
+    
+      
+      <li class="nav__item nav__item--releases">
+        <a class='nav__link  ' href='/releases'>
+          Releases
+        </a>
+      </li>
+    
+      
+      <li class="nav__item nav__item--faq">
+        <a class='nav__link  ' href='/faq'>
+          FAQ
+        </a>
+      </li>
+    
+      
+      <li class="nav__item nav__item--source">
+        <a href="https://github.com/ravynsoft/ravynos" class="nav__link  " >
+          Source
+        </a>
+      </li>
+    
+      
+      <li class="nav__item nav__item--download">
+        <a href="https://github.com/ravynsoft/ravynos/releases" class="nav__link nav__link--highlight " >
+          Try
+        </a>
+      </li>
+    
+  </ul>
+
+  </div>
+</nav>
+
+
+    <main class="main" role="main">
+      
+      
+
+<section class="u-container home__section home__section--hero">
+  <header class="section__header section__header--hero">
+    <h1 class="hero__title">
+      ravynOS
+    </h1>
+    <h2 class="h4 hero__punchline">
+      <span>Finesse of macOS.</span>
+      <span>Freedom of FreeBSD.</span>
+    </h2>
+  </header>
     </div>
   </body>
 </html>
